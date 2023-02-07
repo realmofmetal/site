@@ -1,7 +1,7 @@
 !(function () {
     if ("undefined" == typeof BloggerRatingGenerator) {
         let n = [".post", ".post-outer", "article", ".item", ".blog-post", ".hentry", ".index-post"],
-            o = [".realm-rating"],
+            o = [".post-title", "h1", "h2", "h3"],
             s = ["#main", "#Blog1", "#Blog00"];
         function t(e) {
             if ("A" === e.tagName && e.getAttribute("href")) {
